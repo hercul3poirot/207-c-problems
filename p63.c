@@ -13,7 +13,7 @@ int fibbonaci(int i) {
     }
 }
 
-void main() {
+int main() {
     int number, sum = 0, sequence = 1;
     printf("Input a positive number less than 100: ");
     scanf("%i", &number);
@@ -22,4 +22,5 @@ void main() {
         sequence += 1;
     } while (fibbonaci(sequence) <= number);
     printf("Sum of the series is %i", sum);
+    return 0;
 }

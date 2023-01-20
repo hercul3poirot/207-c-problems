@@ -1,7 +1,7 @@
 //81. Write a C program that reads the side (side sizes between 1 and 10) of a square, and prints a hollow square using hash (#) characters.
 #include <stdio.h>
 
-void main() {
+int main() {
     int size;
     printf("Input the size of the square: ");
     scanf("%i", &size);    
@@ -14,4 +14,5 @@ void main() {
         }
         printf("\n");
     }
+    return 0;
 }

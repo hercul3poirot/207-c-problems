@@ -1,7 +1,7 @@
 //Write a C program to compute the sum of all the odd numbers between a given pair of integers.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y, temp, sum = 0;
     printf("Input the first number of the pair: ");
     scanf("%i", &x);
@@ -20,4 +20,5 @@ void main() {
         }
     } 
     printf("Sum = %i", sum);
+    return 0;
 }

@@ -1,7 +1,7 @@
 //13. Write a C program that accepts three integers, and finds the maximum value of these three.
 #include <stdio.h>
 
-void main() {
+int main() {
     int numbers[4], biggestNum = NULL;
     for (int i = 0; i <= 2; i++){
         printf("Input integer %i: ", i+1);
@@ -15,4 +15,5 @@ void main() {
         }
     }
     printf("Maximum value of three integers: %i", biggestNum);
+    return 0;
 }

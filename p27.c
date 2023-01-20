@@ -1,7 +1,7 @@
 //27. Write a C program that reads 5 numbers, and counts the number of positive numbers and negative numbers. 
 #include <stdio.h>
 
-void main() {
+int main() {
     int positiveCount, negativeCount, tempNumber;
     for (int i = 1; i <= 5; i++) {
         printf("Enter number %i: ", i);
@@ -13,4 +13,5 @@ void main() {
         }
     }
     printf("Number of positive numbers: %i\nNumber of negative numbers: %i", positiveCount, negativeCount);
+    return 0;
 }

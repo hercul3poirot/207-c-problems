@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main() {
+int main() {
     int length, count = 0;
     char *integer, threes[] = "333333333";
     printf("Input an integer (7 digits or fewer): ");
@@ -14,4 +14,5 @@ void main() {
         }
     }
     printf("The number of 3's in %s is %i", integer, count);
+    return 0;
 }

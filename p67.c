@@ -10,11 +10,12 @@ int toThePowerOf(int number, int exponent) {
     }
 }
 
-void main() {
+int main() {
     int x,n,result;
     printf("Input the values of x and n, seperated by a space: ");
     scanf("%i %i", &x, &n);
     printf("x=%i; n=%i\n", x,n);
     result = toThePowerOf(x,n);
     printf("x to the power of n = %i", result);
+    return 0;
 }

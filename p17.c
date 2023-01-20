@@ -1,7 +1,7 @@
 //17. Write a C program to convert a given integer (in seconds) to hours, minutes and seconds.
 #include <stdio.h>
 
-void main() {
+int main() {
     int seconds, hours, minutes;
     printf("Input seconds: ");
     scanf("%i", &seconds);
@@ -14,4 +14,5 @@ void main() {
         seconds -= 60;
     }
     printf("There are:\nH:M:S - %i:%i:%i", hours, minutes, seconds);
+    return 0;
 }

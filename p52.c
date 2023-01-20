@@ -1,7 +1,7 @@
 //52. Write a C program to read an array of length 6 and find the smallest element and its position.
 #include <stdio.h>
 
-void main() {
+int main() {
     int array_n[5], smallestNum = NULL, position;
     printf("Input the 5 members of the array:\n");
     for (int i = 0; i <= 4; i++) {
@@ -16,4 +16,5 @@ void main() {
         }
     }
     printf("Smallest value: %i\nPosition of the element: %i", smallestNum, position);
+    return 0;
 }

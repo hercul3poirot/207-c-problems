@@ -1,7 +1,7 @@
 //84. Write a C program to calcualte and print the average of some integers. Accept all the values preceding 888.
 #include <stdio.h>
 
-void main() {
+int main() {
     int sum = 0, count = 0, flag = 0, tempNum;
     float average;
     while (flag == 0) {
@@ -21,4 +21,5 @@ void main() {
     else {
         printf("Not possible, as count is 0 and anything/0 is undefined!");
     }
+    return 0;
 }

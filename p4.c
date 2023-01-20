@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main() {
+int main() {
     char inputstring[4];
     char reversestring[4];
     printf("Please input the string to be reversed: ");
@@ -15,4 +15,5 @@ void main() {
         reversestring[i] = inputstring[2-i];
     }
     printf("The reverse of %.4s is %.4s.",inputstring, reversestring);
+    return 0;
 }

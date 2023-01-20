@@ -1,7 +1,7 @@
 //48. Write a C program to read and print the elements of an array of length 7. Before printing, replace every negative number or 0 with 100.
 #include <stdio.h>
 
-void main() {
+int main() {
     int numbers[8];
     printf("Please input the 7 members of the array:\n");
     for (int i = 0; i <= 6; i++) {
@@ -15,4 +15,5 @@ void main() {
     for (int i = 0; i <= 6; i++) {
         printf("\nn[%i] = %i", i, numbers[i]);
     }
+    return 0;
 }

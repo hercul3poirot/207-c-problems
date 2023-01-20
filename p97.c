@@ -1,7 +1,7 @@
 //97. Write a C program to replace more than one blanks with a single blank in an input string
 #include <stdio.h>
 
-void main() {
+int main() {
     int charCount, wordCount, ch;
     charCount = wordCount = 0;
     printf("Input a string and get the number of characters and words: \n");
@@ -16,4 +16,5 @@ void main() {
     }
     printf("Number of characters: %i\n", charCount);
     printf("Number of words: %i", wordCount);
+    return 0;
 }

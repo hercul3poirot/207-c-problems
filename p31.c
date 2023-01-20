@@ -7,7 +7,7 @@ struct Number {
     char *polarity;
 } inputNumber; 
 
-void main() {
+int main() {
     printf("Input an integer: ");
     scanf("%i", &inputNumber.value);
     if (inputNumber.value > 0){
@@ -21,4 +21,5 @@ void main() {
         inputNumber.polarity = "Odd";
     }
     printf("%s %s", inputNumber.sign, inputNumber.polarity);
+    return 0;
 }

@@ -3,7 +3,7 @@
 #include <string.h>
 #define MAX 100
 
-void main() {
+int main() {
     char originalString[MAX], copyString[MAX];
     int length;
     printf("Input a string: ");
@@ -12,4 +12,5 @@ void main() {
     strcpy(copyString, originalString);
     length = strlen(copyString);
     printf("Number of characters = %i", length);
+    return 0;
 }

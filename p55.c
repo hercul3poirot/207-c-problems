@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main() {
+int main() {
     int x, y, diff;
     printf("Input the value for x & y, seperated by a space: ");
     scanf("%i %i",&x,&y);
@@ -16,4 +16,5 @@ void main() {
         y = y - diff;
     }
     printf("Values of x & y after swap: %i %i",x,y);
+    return 0;
 }

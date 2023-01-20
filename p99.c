@@ -2,7 +2,7 @@
 #define HISTOGRAM_SYMBOL '#'
 #include <stdio.h>
 
-void main(){
+int main(){
     int barNumber, numbers[10];
     printf("Input number of histogram bar (Maximum 10): ");
     scanf("%i", &barNumber);
@@ -17,4 +17,5 @@ void main(){
             printf("%c", HISTOGRAM_SYMBOL);
         }
     }
+    return 0;
 }

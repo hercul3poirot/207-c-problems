@@ -10,7 +10,7 @@ int isPrime(int number){
     return 1;
 }
 
-void main(){
+int main(){
     int inputNum, div1, div2, nearlyP = 0;
     printf("Enter a number: ");
     scanf("%i", &inputNum);
@@ -25,4 +25,5 @@ void main(){
     } else {
         printf("It is a nearly prime number.");
     }
+    return 0;
 }

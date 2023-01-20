@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+int main() {
     float x, endVal;
     printf("Input value of x: ");
     scanf("%f", &x);
@@ -12,4 +12,5 @@ void main() {
     } else {
         printf("x cannot be zero, as this is undefined.");
     }
+    return 0;
 }

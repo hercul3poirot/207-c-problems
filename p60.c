@@ -6,7 +6,7 @@ enum weekday {
 } ;
 
 
-void main() {
+int main() {
     printf("Sun = %d", Sun);
     printf("\nMon = %d", Mon);
     printf("\nTue = %d", Tue);
@@ -14,6 +14,5 @@ void main() {
     printf("\nThu = %d", Thu);
     printf("\nFri = %d", Fri);
     printf("\nSat = %d", Sat);
-
-    
+    return 0;
 }

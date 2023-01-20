@@ -1,7 +1,7 @@
 //86. Write a C program to display the sizes and ranges for each of C's data types.
 #include <stdio.h>
 
-void main() {
+int main() {
     printf("Type                 Bytes\n");
     printf("----------------------------\n");
     printf("char                 %i\n", sizeof(char));       
@@ -24,4 +24,5 @@ void main() {
     printf("double               %i\n", sizeof(double));     
     printf("long double          %i\n", sizeof(long double));       
     printf("_Bool                %i\n", sizeof(_Bool));      
+    return 0;
 }

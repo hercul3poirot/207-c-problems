@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main() {
+int main() {
     char password[] = "1234", guess[20];
     printf("Please enter the password: ");
     scanf("%s", &guess);
@@ -13,4 +13,5 @@ void main() {
         scanf("%s", &guess);
     }
     printf("Correct password!");
+    return 0;
 }

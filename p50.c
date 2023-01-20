@@ -3,7 +3,7 @@
 
 //Method 1. Using a two dimensional array that stores the position and value of a flagged item in the array:
 //Does not work cus of funky list features in C :(
-// void main() {
+// int main() {
 //     int numbers[6], flagNumbers[3][6], addCount = 0, length;
 //     printf("Input the 5 members of the array:\n");
 //     for (int i = 0; i <= 4; i++) {
@@ -18,10 +18,12 @@
 //     for (int i = 0; i < length; i++){
 //         printf("%i\n",flagNumbers[0][i]);
 //     }
+//     
+return 0;
 // }
 
 //Method 2. Iterating over the list again such that it checks which elements are less than 5 natively.
-void main() {
+int main() {
     int numbers[5];
     printf("Input the 5 members of the array:\n");
     for (int i = 0; i <= 4; i++) {
@@ -32,4 +34,5 @@ void main() {
             printf("\nA[%i] = %i", i, numbers[i]);
         }
     }
+    return 0;
 }

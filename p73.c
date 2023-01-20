@@ -1,7 +1,7 @@
 //Write a C program that reads in two integers, and checks whether the first integer is a multiple of the second integer.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     printf("Enter the first number: ");
     scanf("%i", &x);
@@ -12,4 +12,5 @@ void main() {
     } else {
         printf("Not Multiplied :(");
     }
+    return 0;
 }

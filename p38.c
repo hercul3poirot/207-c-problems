@@ -1,7 +1,7 @@
 //38. Write a program that reads two numbers, and divides the first number by the second number. If the division is not possible, print "Division is not possible."
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     float result;
     printf("Input two numbers:\n");
@@ -15,4 +15,5 @@ void main() {
         result = (float)x/y;
         printf("%.2f", result);
     }
+    return 0;
 }

@@ -1,7 +1,7 @@
 //32. Write a C program to print all numbers between 1 to 100 which, when divided by a specific integer, will give a remainder of 3.
 #include <stdio.h>
 
-void main() {
+int main() {
     int divisor;
     printf("Input the divisor: ");
     scanf("%i", &divisor);
@@ -10,4 +10,5 @@ void main() {
             printf("%i\n", i);
         }
     }
+    return 0;
 }

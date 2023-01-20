@@ -2,7 +2,7 @@
 //EXPLANATION OF THE ABOVE: Check if one is a multiple of the other.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     printf("Enter the first number: ");
     scanf("%i", &x);
@@ -13,5 +13,5 @@ void main() {
     } else {
         printf("Not Multiplied :(");
     }
-    
+    return 0;
 }

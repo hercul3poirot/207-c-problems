@@ -1,7 +1,7 @@
 //16. Write a C program to read an amount (integer value) and break the amount into the smallest possible number of bank notes.
 #include <stdio.h>
 
-void main(){
+int main(){
     int cashAmount, hundredCount, fiftyCount, twentyCount, tenCount, fiveCount, twoCount, oneCount;
     printf("Input the cash amount: $");
     scanf("%i", &cashAmount);
@@ -40,4 +40,5 @@ void main(){
     printf("%i Note(s) of $5.00\n", fiveCount);
     printf("%i Note(s) of $2.00\n", twoCount);
     printf("%i Note(s) of $1.00\n", oneCount);    
+    return 0;
 }

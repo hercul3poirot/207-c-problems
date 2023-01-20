@@ -43,7 +43,7 @@ int isPalindrome(char *digits) {
     }
 }
 
-void main() {
+int main() {
     int x,y;
     char *arrNum;
     printf("Input two numbers (separated by a space): ");
@@ -55,4 +55,5 @@ void main() {
             printf("\n%i is palindrome",i);
         }
     }
+    return 0;
 }

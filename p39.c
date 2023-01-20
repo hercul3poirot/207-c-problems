@@ -1,7 +1,7 @@
 //39. Write a C program to calculate the sum of all numbers not divisible by 17 between two given integer numbers.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y,sum = 0;
     printf("Input the first integer: ");
     scanf("%i", &x);
@@ -13,4 +13,5 @@ void main() {
         }
     }
     printf("Sum: %i", sum);
+    return 0;
 }

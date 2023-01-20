@@ -1,7 +1,7 @@
 //7. Write a C program to display multiple variables.
 #include <stdio.h>
 
-void main() {
+int main() {
     int a = 125, b = 12345;
     long ax = 1234567890;
     short s = 4043;
@@ -19,4 +19,5 @@ void main() {
     printf("The value of s + c is %d\n", s+c);
     printf("The value of ax + c is %ld\n", ax+c);
     printf("The value of ax + ux is %lu\n", ax+ux);    
+    return 0;
 }

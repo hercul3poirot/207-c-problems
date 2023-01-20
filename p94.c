@@ -1,7 +1,7 @@
 //94. Write a C program to calculate body mass index and display the grade.
 #include <stdio.h>
 
-void main() {
+int main() {
     float weight, height, bmi;
     printf("Enter the weight: ");
     scanf("%f", &weight); 
@@ -10,4 +10,5 @@ void main() {
     bmi = weight/(height*height);
     printf("BMI = %f\n", bmi, height, weight);
     bmi < 18.5 ? printf("Under ") : bmi < 25 ? printf("Normal ") : bmi < 30 ? printf("Over ") : bmi < 40 ? printf("Obese ") : printf("Error");
+    return 0;
 }

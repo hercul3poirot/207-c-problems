@@ -1,7 +1,7 @@
 //35. Write a C program to check whether two numbers in a pair is in ascending order or descending order.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     printf("Input the first number of the pair: ");
     scanf("%i", &x);
@@ -12,4 +12,5 @@ void main() {
     } else {
         printf("The pair is in ascending order!");
     }
+    return 0;
 }

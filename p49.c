@@ -2,7 +2,7 @@
 //Translation: Let the user input the first element of the array, the following elements are triples of the previous.
 #include <stdio.h>
 
-void main() {
+int main() {
     int firstNum, numbers[8];
     printf("Input the first number of the array: ");
     scanf("%i", &firstNum);
@@ -14,4 +14,5 @@ void main() {
         }
         printf("n[%i] = %i\n", i, numbers[i]);
     }
+    return 0;
 }

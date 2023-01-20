@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main() {
+int main() {
     char *digits;
     int length, same = 1, checkValue;
     printf("Input a number: ");
@@ -26,4 +26,5 @@ void main() {
     if (same == 1){
         printf("%s is a palindrome.", digits);
     }
+    return 0;
 }

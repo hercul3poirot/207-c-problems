@@ -3,7 +3,7 @@
 #include <string.h>
 #define MAX 1000
 
-void main() {
+int main() {
     int ch;
     int length;
     printf("Input some text:\n");
@@ -14,4 +14,5 @@ void main() {
             printf("%c", ch);
         }
     }
+    return 0;
 }

@@ -1,7 +1,7 @@
 //87. Write a C program to display the sizes and ranges for each of C's data types.
 #include <stdio.h>
-#include <float.h>
-#include <limits.h>
+#include <float.h> //For the exponential values
+#include <limits.h> //For the limit variables
 
 int toThePowerOf(int number, int exponent) {
     if (exponent == 1) {
@@ -18,7 +18,7 @@ int range(int bytes) {
     return range;
 }
 
-void main(){
+int main(){
     printf("Ranges for integer data types in C\n");
     printf("---------------------------------------------------------------------------------\n");
     printf("int8_t                %20i  %20i\n", -range(sizeof(int8_t)),range(sizeof(int8_t)));
@@ -36,5 +36,6 @@ void main(){
     printf( "double       %14.7g  %14.7g\n"   , DBL_MIN  , DBL_MAX  );
     printf( "long double  %14.7Lg  %14.7Lg\n" , LDBL_MIN , LDBL_MAX );
     printf( "\n" );
+    return 0;
 }
 

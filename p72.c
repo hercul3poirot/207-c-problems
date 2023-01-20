@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main() {
+int main() {
     int inputNum, absNum;
     printf("Please enter a negative integer: ");
     scanf("%i", &inputNum);
     absNum = abs(inputNum);
     printf("Original value = %i\nAbsolute value = %i", inputNum, absNum);
+    return 0;
 }

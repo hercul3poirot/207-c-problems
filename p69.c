@@ -10,7 +10,7 @@ int factorial(int num){
     }
 }
 
-void main() {
+int main() {
     int combination;
     for (int i = 0; i <= 10; i++) {
         printf("%i ",i);
@@ -20,4 +20,5 @@ void main() {
         }
         printf("\n");
     }
+    return 0;
 }

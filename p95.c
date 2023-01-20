@@ -1,7 +1,7 @@
 //95. Write a C program to print the corresponding Fahrenheit to Celsius and Celsius to Farenheit.
 #include <stdio.h>
 
-void main(){
+int main(){
     printf("Fahrenheit to Celsius\n");
     printf("---------------------\n");
     printf("Fahrenheit   Celsius\n");
@@ -16,4 +16,5 @@ void main(){
         float ftemp = (celsius - 32) * 5 / 9;
         printf("\n%6.1f     %7.1f", celsius, ftemp );
     }
+    return 0;
 }

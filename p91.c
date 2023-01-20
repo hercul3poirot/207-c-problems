@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-void main() {
+int main() {
     float pi = 4 * atan(45), hourAngle, minuteAngle, difference;
     int hours, minutes;
     printf("Input hours(h) and minutes(m) separated by a space: ");
@@ -15,4 +15,5 @@ void main() {
         difference = 360 - difference;
     }
     printf("The angle is %.2f at %i:%i", difference, hours, minutes);
+    return 0;
 }

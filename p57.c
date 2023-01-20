@@ -1,7 +1,7 @@
 //57. Write a C program to reverse and print a given number.
 #include <stdio.h>
 
-void main() {
+int main() {
     int number, temp, reverse = 0;
     char charNum[99], charRev[99];
     printf("Input a number: ");
@@ -13,4 +13,5 @@ void main() {
         number = number/10;
     }
     printf("\nThe reverse of the said number = %i", reverse);
+    return 0;
 }

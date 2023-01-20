@@ -12,7 +12,7 @@ int isPrime(int num){
     return result;
 }
 
-void main() {
+int main() {
     int count;
     printf("The prime numbers between 1 and 200 are:");
     for (int i = 1; i < 200; i++) {
@@ -25,4 +25,5 @@ void main() {
             count += 1;
         }
     }
+    return 0;
 }

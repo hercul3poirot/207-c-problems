@@ -1,7 +1,7 @@
 //64. Write a C program that accepts integers from the user until a zero or negative number, display the number of positive values, the minimum value, the maximum valuue and the average of all numbers.
 #include <stdio.h>
 
-void main(){
+int main(){
     int sum = 0, count = 0, maxNum = NULL, minNum = NULL, tempNum;
     float average;
     do {
@@ -19,4 +19,5 @@ void main(){
     printf("\nMaximum value entered is %i", maxNum);
     printf("\nMinimum value entered is %i", minNum);
     printf("\nAverage value is %.2f", average);
+    return 0;
 }

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+int main() {
     float numberofdays, years, weeks, days;
     int realyears, realweeks, realdays;
     printf("Number of days: ");
@@ -12,6 +12,7 @@ void main() {
     days = (weeks-(int)weeks)*7;
     realyears = floor(years);
     realweeks = floor(weeks);
-    realdays = ceil(days);
-    printf("Years: %i\nWeeks: %i\nDays: %i", realyears, realweeks, realdays);
+    realdays = floor(days);
+    printf("Years: %i\nWeeks: %i\nDays: %i", years, weeks,days);
+    return 0;
 }

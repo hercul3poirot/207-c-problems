@@ -1,7 +1,7 @@
 //21. Write a C program that reads an integer and checks the specified range where it belongs. Print an error message if the number is negative and greater than 80.
 #include <stdio.h>
 
-void main() {
+int main() {
     int inputNumber;
     printf("Input an integer: ");
     scanf("%i", &inputNumber);
@@ -20,4 +20,5 @@ void main() {
     else {
         printf("Number is outside the range.");
     }
+    return 0;
 }

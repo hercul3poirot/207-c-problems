@@ -2,7 +2,7 @@
 //I won't lie, I copied this one because what is the lesson to be learned here 💀
 #include<stdio.h>
 
-void main()
+int main()
     {
     int n;
     printf("Decimal  Roman\n");
@@ -82,4 +82,5 @@ void main()
     }
     printf("\n");
     }
+    return 0;
 } 

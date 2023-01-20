@@ -1,7 +1,7 @@
 //Write a C program that reads an integer and finds all its divisors.
 #include <stdio.h>
 
-void main(){
+int main(){
     int inputNum;
     printf("Input an integer: ");
     scanf("%i", &inputNum);
@@ -11,4 +11,5 @@ void main(){
             printf("\n%i", i);
         }
     }
+    return 0;
 }

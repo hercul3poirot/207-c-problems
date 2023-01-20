@@ -10,7 +10,7 @@ int factorial(int number) {
     }
 }
 
-void main() {
+int main() {
     int result, num, digit, flag = 0;
     printf("Input a positive number: ");
     scanf("%i", &num);
@@ -24,4 +24,5 @@ void main() {
         }
     } while (flag == 0);
     printf("The last non-zero digit of the said factorial:\n%i", digit);
+    return 0;
 }

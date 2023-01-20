@@ -2,7 +2,7 @@
 //EXPLANATION FOR ABOVE: Take 5 numbers, and only sum the odd numbers.
 #include <stdio.h>
 
-void main() {
+int main() {
     int sum = 0, tempNumber;
     for (int i=0; i < 5; i++) {
         printf("Enter number %i: ", i+1);
@@ -12,4 +12,5 @@ void main() {
         }
     }
     printf("Sum of all odd values: %i", sum);
+    return 0;
 }

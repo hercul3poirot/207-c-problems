@@ -1,7 +1,7 @@
 //11. Write a C program that accepts two item's weight (floating points' values) and the quantities of each to calculate the average value of the items.
 #include <stdio.h>
 
-void main() {
+int main() {
     float weightOne, weightTwo, average;
     int quanOne, quanTwo;
     printf("Weight - Item 1: ");
@@ -14,4 +14,5 @@ void main() {
     scanf("%d", &quanTwo);
     average = (weightOne*quanOne+weightTwo*quanTwo)/(quanOne+quanTwo);
     printf("Average Value = %f", average);
+    return 0;
 }

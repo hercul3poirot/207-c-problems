@@ -12,7 +12,7 @@ int toThePowerOf(int number, int exponent) {
     }
 }
 
-void main() {
+int main() {
     int tempNum;
     double tempFracNum;
     printf("==============================\n");
@@ -23,4 +23,5 @@ void main() {
         printf("%i %i %.13f\n",i,tempNum,tempFracNum);
     }
     printf("==============================");
+    return 0;
 }

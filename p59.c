@@ -1,7 +1,7 @@
 //59. Write a C program to display the sum of the series 1 + 1/2 + 1/3 + ... + 1/n.
 #include <stdio.h> 
 
-void main() {
+int main() {
     float sum = 0, add;
     int n;
     printf("Input any number: ");
@@ -15,5 +15,5 @@ void main() {
         }
         printf("Sum = %f", sum);
     }
-
+    return 0;
 }

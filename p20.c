@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+int main() {
     float a,b,c, discriminant, root1, root2;
     printf("Input the first number(a): ");
     scanf("%f", &a);
@@ -17,5 +17,6 @@ void main() {
         root1 = (-b + sqrt(discriminant))/(2*a);
         root2 = (-b - sqrt(discriminant))/(2*a);
         printf("For the quadratic equation %.2fx²+%.2fx+%.2f=0:\nRoot 1: %.2f\nRoot 2: %.2f",a,b,c,root1,root2);
+        return 0;
     }
 }

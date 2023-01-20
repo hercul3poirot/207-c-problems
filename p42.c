@@ -9,11 +9,12 @@ int cubed(int number){
     return number*number*number;
 }
 
-void main() {
+int main() {
     int n;
     printf("Input number of lines: ");
     scanf("%i", &n);
     for (int i = 1; i <= n; i++) {
         printf("%i %i %i\n", i, squared(i), cubed(i));
     }
+    return 0;
 }

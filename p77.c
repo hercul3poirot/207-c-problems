@@ -2,7 +2,7 @@
 //interest = principle * rate * days/365
 #include <stdio.h>
 
-void main(){
+int main(){
     int principle, days;
     float rate, interest;
     printf("Input loan amount: ");
@@ -13,4 +13,5 @@ void main(){
     scanf("%i", &days);
     interest = (float)principle * rate * days/365;
     printf("The interest amount is $%.2f", interest);
+    return 0;
 }
