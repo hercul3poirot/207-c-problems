@@ -1,7 +1,7 @@
 //103. Write a C program that takes two integers and tests whether they are multiples or not.
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     printf("Input two integers, separated by a space: ");
     scanf("%i %i", &x, &y);
@@ -10,4 +10,5 @@ void main() {
     } else {
         printf("Not multiples");
     }
+    return 0;
 }

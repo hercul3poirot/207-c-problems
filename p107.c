@@ -1,7 +1,7 @@
 //107. Write a C program that accepts an integer and prints the next ten consecutive odd and even numbers.
 #include <stdio.h>
 
-void main(){
+int main(){
     int num, oddCount, evenCount, oddStart, evenStart;
     oddCount = evenCount = 0;
     printf("Input an integer number:\n");
@@ -23,4 +23,5 @@ void main(){
             evenCount += 1; 
         }
     } while (evenCount != 10);
+    return 0;
 }

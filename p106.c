@@ -1,7 +1,7 @@
 //106. Write a C program that accepts 7 integer values and counts the even, odd, positive and negative values.
 #include <stdio.h>
 
-void main(){
+int main(){
     int posCount, negCount, evenCount, oddCount, temp;
     posCount = negCount = evenCount = oddCount = 0;
     printf("Input 7 integers:\n");
@@ -22,4 +22,5 @@ void main(){
     printf("\nNumber of odd values: %i", oddCount);
     printf("\nNumber of positive numbers: %i", posCount);
     printf("\nNumber of negative numbers: %i", negCount);
+    return 0;
 }

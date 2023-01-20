@@ -2,7 +2,7 @@
 //After this, print the average of all the positive and negative values, with two digits after the decimal number. 
 #include <stdio.h>
 
-void main(){
+int main(){
     float temp, posSum, negSum;
     int posCount, negCount;
     posCount = negCount = 0;
@@ -21,4 +21,5 @@ void main(){
     printf("\nAverage: %.2f", posSum/posCount);
     printf("\n\nNumber of negative numbers: %i", negCount);
     printf("\nAverage: %.2f", negSum/negCount);
+    return 0;
 }
