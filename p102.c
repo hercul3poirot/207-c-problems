@@ -1,7 +1,7 @@
 //102. Write a C program that reads three integers and sort the numbers in ascending order. Print the original numbers and sorted numbers.
 #include <stdio.h>
 
-void main() {
+int main() {
     int arr[3];
     printf("Input 3 numbers, separated by a space:\n");
     for (int i = 0; i < 3; i++){
@@ -31,4 +31,5 @@ void main() {
     for (int i = 0; i < 3; i++){
         printf("%i", arr[i]);
     }
+    return 0;
 }
