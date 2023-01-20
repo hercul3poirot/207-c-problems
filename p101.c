@@ -1,7 +1,7 @@
 //101. There are three given ranges, write a C program that reads a floating-point number and find the range where it belongs from four given ranges.
 #include <stdio.h>
 
-void main() {
+int main() {
     float inputNum;
     printf("Input a number: ");
     scanf("%f", &inputNum);
@@ -19,4 +19,5 @@ void main() {
     } else {
         printf("Sorry, the number is out of range, please enter a new one.");
     }
+    return 0;
 }
