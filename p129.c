@@ -13,7 +13,7 @@ int main() {
         } else {
             array_nums[i] = array_nums[i-1] / 3.0;
         }
-        printf("\narray_nums[%f] = %f", i, array_nums[i]);
+        printf("\narray_nums[%i] = %f", i, array_nums[i]);
     }
     return 0;
 }
