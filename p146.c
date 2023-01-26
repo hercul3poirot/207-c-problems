@@ -14,19 +14,31 @@ int main() {
     char words[348][6], c, tempword[1024];
     int lettercount, wordcount;
     lettercount = wordcount = 0;
-    printf("English sentences consisting of delimiters and alphanumeric characters on one line:");
+    printf("English sentences consisting of delimiters and alphanumeric characters on one line:\n");
     for (;;) {
         c = getchar();
-        if (c == EOF) {
-            break;
-        }
-        do {
+        if (isASCIILetter(c) == 0) {
             tempword[lettercount] = c;
             lettercount++;
-        } while (isASCIILetter(c) == 0)
-        if (lettercount > 1 && lettercount < 6) {
-            for (int i = 0)
+        } else if (isASCIILetter(c) == 1) {
+            if (lettercount > 1 && lettercount < 6) {
+                for (int i = 0; i < lettercount; i++) {
+                    words[wordcount][i] = tempword[i];
+                }
+                wordcount++;
+            }
+            lettercount = 0;
+            if (c == '\n') {
+                break;
+            }
         }
+    }
+    printf("\nExtract words of 3 to 6 characters length from the said sentence:\n");
+    for (int i = 0; i <= wordcount; i++) {
+        for (int j = 0; j < 6; j++) {
+            printf("%c", words[i][j]);
+        }
+        printf(" ");
     }
     return 0;
 }
