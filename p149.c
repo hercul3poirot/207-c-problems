@@ -19,8 +19,7 @@ int structAlphabeticalSort(int num){
                 pages[j] = temp;
             }
         }
-   }
-   
+    }
 }
 
 int main() {
