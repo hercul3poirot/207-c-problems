@@ -1,4 +1,4 @@
-//Write a C program that reads in two integers, and checks whether the first integer is a multiple of the second integer.
+//73. Write a C program that reads in two integers, and checks whether the first integer is a multiple of the second integer.
 #include <stdio.h>
 
 int main() {
