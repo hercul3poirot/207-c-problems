@@ -27,7 +27,7 @@ int main() {
     }
     for (;;) {
         if (numbers[iteration] > 0) { //Finds the first non 0 element in the array (the smallest number).
-            smallest = iteration;
+            smallest = iteration; //Sets the first found number as the smallest
             break;
         }
         iteration++;
