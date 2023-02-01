@@ -27,6 +27,5 @@ int main() {
             printf("%i ", sequence[i]);
         }
     }
-    
     return 0;
 }
