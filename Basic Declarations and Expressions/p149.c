@@ -11,7 +11,7 @@ page pages[1000];
 
 int structAlphabeticalSort(int num){
    page temp;
-   for(int i = 0; i < num-1; i++) { //Bubble sort
+   for(int i = 0; i < num-1; i++) { 
         for(int j = i + 1; j < num; j++) {
             if(strcmp(pages[i].word,pages[j].word)>0) { 
                 temp = pages[i];
