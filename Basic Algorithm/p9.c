@@ -3,12 +3,12 @@
 
 int main() {
     int x, y;
-    printf("Please input x, y and z, separated by a space: ");
+    printf("Please input integers x and y, separated by a space: ");
     scanf("%d %d", &x, &y);
     if ((x >= 20 && x <= 50) || (y >= 20 && y <= 50)) {
-        printf("True.");
+        printf("True");
     } else {
-        printf("False.");
+        printf("False");
     }
     return 0;
 }
