@@ -1,4 +1,4 @@
-//6. Write a C program that accepts a sequence of positive integers from the user, and finds the lenght of the longest continuous subsequence from the said sequence.
+//6. Write a C program that accepts a sequence of positive integers from the user, and finds the length of the longest continuous subsequence from the said sequence.
 #include <stdio.h>
 
 int main() {
