@@ -20,6 +20,8 @@ int test() {
     }
 }
 
+//Driver:
 int main() {
     printf("\n%i", test());
+    return 0;
 }
