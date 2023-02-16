@@ -1,5 +1,6 @@
-// 43. 
+//43. Write a C program to check a given array of integers and return true if the array contains 10 or 20 twice. The length of the array will be 0, 1, or 2.
 #include <stdio.h>
+
 int test(int arr[], int length) {
     int count = 0;
     for (int i = 0; i < length; i++) {
@@ -12,8 +13,6 @@ int test(int arr[], int length) {
     }
     return 0;
 }
-
-
 
 int main(void){
     int arr_size;
