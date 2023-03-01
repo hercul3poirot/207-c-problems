@@ -2,6 +2,7 @@
 // elements of a given array of integers of odd length (atleast 1).
 #include <stdio.h>
 #include <stdlib.h>
+
 int test(int arr[], int length) {
     int start = arr[0], end = arr[length - 1], middle = arr[length/2];
     if (start > end && start > middle) {
